@@ -13,7 +13,7 @@ dns_servers = ["1.1.1.1"]
 
 dns_query = Nslookup(dns_servers)
 
-# SOA lookups
+# SOA record lookup
 soa_record = dns_query.soa_lookup(domain)
 
 print(soa_record.response_full)
