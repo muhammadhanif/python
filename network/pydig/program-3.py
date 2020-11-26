@@ -8,4 +8,5 @@
 
 import pydig
 
+# NS record lookup
 print(pydig.query('hanifmu.com', 'NS'))

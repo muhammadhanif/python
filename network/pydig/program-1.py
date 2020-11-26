@@ -8,4 +8,5 @@
 
 import pydig
 
+# A record lookup
 print(pydig.query('hanifmu.com', 'A'))

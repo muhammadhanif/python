@@ -8,4 +8,5 @@
 
 import pydig
 
+# CNAME record lookup
 print(pydig.query('www.hanifmu.com', 'CNAME'))
