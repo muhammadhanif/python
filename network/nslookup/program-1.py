@@ -13,7 +13,7 @@ dns_servers = ["1.1.1.1"]
 
 dns_query = Nslookup(dns_servers)
 
-# A record lookups
+# A record lookup
 ips_record = dns_query.dns_lookup(domain)
 
 print(ips_record.response_full)
